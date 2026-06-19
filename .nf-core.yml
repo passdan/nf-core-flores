@@ -1,0 +1,15 @@
+repository_type: pipeline
+
+nf_core_version: 4.0.2
+
+lint: {}
+
+template:
+  org: nf-core
+  name: flores
+  description: Read based analysis of wastewater metagenomics
+  author: Daniel Pass
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  is_nfcore: true
